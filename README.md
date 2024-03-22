@@ -47,8 +47,7 @@ To refresh database with the data use:
 
 Build front-end:
 ```shell
-./vendor/bin/sail npm install
-./vendor/bin/sail npm run build
+./vendor/bin/sail npm install && ./vendor/bin/sail npm run build
 ```
 
 Follow the link [localhost](http://localhost/)
