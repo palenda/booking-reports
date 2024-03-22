@@ -10,6 +10,11 @@ Run command to install dependencies:
 composer install
 ```
 
+Or:
+```shell
+composer install --ignore-platform-reqs
+```
+
 Run Laravel sail:
 ```shell
 ./vendor/bin/sail up -d
@@ -25,12 +30,8 @@ Run next command to generate APP_KEY in .env file. You should do it only once.
 ./vendor/bin/sail artisan key:generate
 ```
 
-To run database migrations and set up the data use:
+To run database migrations and seeders use:
 ```shell
-./vendor/bin/sail artisan migrate
-./vendor/bin/sail artisan db:seed
-
-# or use 
 ./vendor/bin/sail artisan migrate --seed
 ```
 
