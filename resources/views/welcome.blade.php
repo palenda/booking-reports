@@ -10,7 +10,7 @@
 <div class="flex flex-col md:flex-row justify-between m-4">
     <div class="overflow-x-auto mb-4 border-4 border-x-lime-400 rounded-lg md:w-min w-full h-min">
         <div class="flex p-2 justify-center bg-gradient-to-r from-neutral-900 to-neutral-300">
-            <span>Task 1</span>
+            <span class="text-white">Task 1</span>
         </div>
         <table class="table md:w-max w-full bg-neutral-200">
             <thead>
@@ -31,7 +31,7 @@
     </div>
     <div class="overflow-x-auto mb-4 border-4 border-y-lime-400 rounded-lg md:w-min w-full h-min">
         <div class="flex p-2 justify-center bg-gradient-to-r from-neutral-300 to-neutral-900">
-            <span>Task 2</span>
+            <span class="text-white">Task 2</span>
         </div>
         <table class="table md:w-max w-full bg-neutral-200">
             <thead>
@@ -52,7 +52,7 @@
     </div>
     <div class="overflow-x-auto mb-4 border-4 border-x-lime-400 rounded-lg md:w-min w-full h-min">
         <div class="flex p-2 justify-center bg-gradient-to-r from-neutral-900 to-neutral-300">
-            <span>Task 3</span>
+            <span class="text-white">Task 3</span>
         </div>
         <table class="table md:w-max w-full bg-neutral-200">
             <thead>
@@ -73,7 +73,7 @@
     </div>
     <div class="overflow-x-auto mb-4 border-4 border-y-lime-400 rounded-lg md:w-min w-full h-min">
         <div class="flex p-2 justify-center bg-gradient-to-r from-neutral-300 to-neutral-900">
-            <span>Task 4</span>
+            <span class="text-white">Task 4</span>
         </div>
         <table class="table md:w-max w-full bg-neutral-200">
             <thead>
