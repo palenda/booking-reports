@@ -65,7 +65,7 @@
             @foreach($profits as $profit)
                 <tr class="w-max border border-b-slate-600">
                     <td class="text-left p-3">{{ $profit->start_week }} - {{ $profit->end_week }}</td>
-                    <td class="text-left p-3">{{ $profit->total_profit }}</td>
+                    <td class="text-left p-3">{{ round($profit->total_profit) }}</td>
                 </tr>
             @endforeach
             </tbody>
