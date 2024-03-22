@@ -11,7 +11,7 @@ class CapacitySeeder extends Seeder
     public function run(): void
     {
         // Parse capacities from CSV file
-        $csvFile = fopen(storage_path("app/data/capacity.csv"), "r");
+        $csvFile = fopen(storage_path("data/capacity.csv"), "r");
         $firstLine = true;
 
         DB::beginTransaction();

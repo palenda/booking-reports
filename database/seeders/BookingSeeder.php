@@ -11,7 +11,7 @@ class BookingSeeder extends Seeder
     public function run(): void
     {
         // Parse bookings from CSV file
-        $csvFile = fopen(storage_path("app/data/bookings.csv"), "r");
+        $csvFile = fopen(storage_path("data/bookings.csv"), "r");
         $firstLine = true;
 
         DB::beginTransaction();
